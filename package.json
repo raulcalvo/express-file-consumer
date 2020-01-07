@@ -1,0 +1,21 @@
+{
+  "name": "express-file-consumer",
+  "version": "1.0.1",
+  "description": "Express file consumer",
+  "license": "MIT",
+  "repository": "raulcalvo/express-file-consumer",
+  "main": "index.js",
+  "keywords": [
+    "express",
+    "file",
+    "consumer"
+  ],
+  "dependencies": {
+    "connect-busboy": "0.0.2",
+    "express-simple-api": "^1.0.0",
+    "file-consumer": "^1.0.2",
+    "fs": "0.0.1-security",
+    "logger-to-memory": "^1.0.1",
+    "merge-json": "0.1.0-b.3"
+  }
+}
