@@ -43,7 +43,7 @@ module.exports = class expressfileconsumer extends expressSimpleApi {
                 });
             });
         });
-        addPath("/results", "Show output directory files in order to allow download them.", (req, res) => {
+        this.addGetPath("/results", "Show output directory files in order to allow download them.", (req, res) => {
             //joining path of directory 
             const directoryPath = this._c.consumer.outputFolder;
             //passsing directoryPath and callback function

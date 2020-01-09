@@ -1,6 +1,6 @@
 {
   "name": "express-file-consumer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express file consumer",
   "license": "MIT",
   "repository": "raulcalvo/express-file-consumer",
